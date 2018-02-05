@@ -2,8 +2,9 @@
 * @Author: linshuling
 * @Date:   2018-02-02 17:30:21
 * @Last Modified by:   linshuling
-* @Last Modified time: 2018-02-02 17:30:44
+* @Last Modified time: 2018-02-05 12:12:52
 */
 body{
-    background-color: #ccc;
+    color:red;
+    background :url('../../image/test-img.jpg');
 }
