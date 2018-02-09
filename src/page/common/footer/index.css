@@ -1,0 +1,22 @@
+/*
+* @Author: linshuling
+* @Date:   2018-02-09 20:25:09
+* @Last Modified by:   linshuling
+* @Last Modified time: 2018-02-09 20:40:59
+*/
+.footer{
+    padding-bottom: 10px;
+}
+.links{
+    text-align: center;
+    color:#666;
+    line-height: 30px;
+}
+.footer .links .link{
+    padding:  0 10px;
+}
+.copyright{
+    text-align: center;
+    color:#666;
+    line-height: 30px;
+}

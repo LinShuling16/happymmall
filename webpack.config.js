@@ -2,7 +2,7 @@
 * @Author: linshuling
 * @Date:   2018-02-02 15:05:39
 * @Last Modified by:   linshuling
-* @Last Modified time: 2018-02-05 11:59:11
+* @Last Modified time: 2018-02-09 17:02:41
 */
 var webpack             = require('webpack');
 var path                = require('path');
@@ -41,6 +41,15 @@ var config              = {
             { test: /\.css$/, loader:ExtractTextPlugin.extract("style-loader","css-loader")},
             { test: /\.(gif|png|jpg|woff|svg|eot|ttf)\??.*$/, loader:'url-loader?limit=100&name=resource/[name].[ext]'}
         ]
+    },
+    resolve : {
+        alias : {
+            util            : __dirname + '/src/util',
+            page            : __dirname + '/src/page',
+            service         : __dirname + '/src/service',
+            image           : __dirname + '/src/image',
+            node_modules    : __dirname + '/node_modules',
+        }
     },
     plugins: [
         //独立通用模块到js/base.js
