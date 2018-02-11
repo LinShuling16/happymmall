@@ -2,7 +2,7 @@
 * @Author: linshuling
 * @Date:   2018-02-05 16:57:40
 * @Last Modified by:   linshuling
-* @Last Modified time: 2018-02-09 16:48:37
+* @Last Modified time: 2018-02-10 16:17:34
 */
 
 'use strict';
@@ -88,7 +88,7 @@ var _mm   = {
     },
     //统一登录处理
     doLogin : function(){
-        window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+        window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
     },
     //跳回主页
     goHome : function(){
