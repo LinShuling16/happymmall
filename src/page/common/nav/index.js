@@ -2,7 +2,7 @@
 * @Author: linshuling
 * @Date:   2018-02-06 17:34:27
 * @Last Modified by:   linshuling
-* @Last Modified time: 2018-02-09 19:55:28
+* @Last Modified time: 2018-03-02 10:35:44
 */
 'use strict';
 require('./index.css');
@@ -24,7 +24,7 @@ var nav = {
         });
         //注册点击事件
         $('.js-register').click(function(){
-            window.location.href = './register.html';
+            window.location.href = './user-register.html';
         });
         //退出点击事件
         $('.js-logout').click(function(){

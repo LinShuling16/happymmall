@@ -2,7 +2,7 @@
 * @Author: linshuling
 * @Date:   2018-02-05 16:57:40
 * @Last Modified by:   linshuling
-* @Last Modified time: 2018-02-10 16:17:34
+* @Last Modified time: 2018-03-02 10:13:52
 */
 
 'use strict';
@@ -79,9 +79,9 @@ var _mm   = {
         }
         //手机号验证
         if('phone' === type){
-            return /^1d{10}$/.test(value);
+            return /^1\d{10}$/.test(value);
         }
-        //邮箱验证
+        // 邮箱格式验证
         if('email' === type){
             return /^(\w)+(\.\w+)*@(\w)+((\.\w{2,3}){1,3})$/.test(value);
         }
