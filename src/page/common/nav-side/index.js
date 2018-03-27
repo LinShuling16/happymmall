@@ -2,7 +2,7 @@
 * @Author: linshuling
 * @Date:   2018-02-10 11:14:10
 * @Last Modified by:   linshuling
-* @Last Modified time: 2018-02-10 14:49:17
+* @Last Modified time: 2018-03-27 10:32:36
 */
 'use strict';
 require('./index.css');
@@ -15,8 +15,8 @@ var navSide = {
         navList : [
            {name : 'user-center',  desc : '个人中心', href : './user-center.html'},
            {name : 'order-list',   desc : '我的订单', href : './order-list.html'}, 
-           {name : 'pass-update',  desc : '修改密码', href : './pass-update.html'}, 
-           {name : 'about',        desc : '个人中心', href : './about.html'} 
+           {name : 'user-pass-update',  desc : '修改密码', href : './user-pass-update.html'}, 
+           {name : 'about',        desc : '关于MMall', href : './about.html'} 
         ]
     },
     init : function(option){
