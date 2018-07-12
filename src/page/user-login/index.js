@@ -2,7 +2,7 @@
 * @Author: linshuling
 * @Date:   2018-02-02 15:44:45
 * @Last Modified by:   linshuling
-* @Last Modified time: 2018-03-01 11:01:18
+* @Last Modified time: 2018-07-12 14:47:52
 */
 'use strict';
 require('./index.css');
@@ -84,4 +84,5 @@ var page = {
 };
 $(function(){
     page.init();
+    //
 });
